@@ -70,3 +70,12 @@ def scraper_fine(name:str): #scraping for validation of medicine type
         logger.info(f'{name} not found while scraping')
         isExact = False
         return raw_search(name)
+
+def generic_info(name:str):
+    logger.info(f'Trying to find drug description for {name}')
+    url = os.getenv('GENERIC_INFO') + name +'.html'
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html5lib')
+    text = str(soup)
+    logger.info(text)
+    return True

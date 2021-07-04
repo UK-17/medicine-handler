@@ -18,3 +18,9 @@ async def get_medicine_info(search_str:str):
     result = queries.find_medicine(search_str)
     logger.info(result)
     return result
+
+@router.get('/get-medicine-description/{generic_name}')
+async def get_medicine_description(generic_name:str):
+    result = queries.get_info_on_generic_name(generic_name)
+    logger.info(result)
+    return result
