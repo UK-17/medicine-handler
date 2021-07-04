@@ -19,8 +19,8 @@ async def get_medicine_info(search_str:str):
     logger.info(result)
     return result
 
-@router.get('/get-medicine-description/{generic_name}')
-async def get_medicine_description(generic_name:str):
-    result = queries.get_info_on_generic_name(generic_name)
+@router.get('/get-substitutes/{generic_name}')
+async def get_substitutes(generic_name:str):
+    result = queries.get_list_of_substitutes(generic_name)
     logger.info(result)
     return result
