@@ -1,56 +1,58 @@
-2021-07-05 03:19:52,109 | INFO   | Scraping for "crocin" | app.scraper.scraper.scraper_fine():51  
-2021-07-05 03:19:52,962 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='PARACETAMOL' isExact=True | app.scraper.queries.find_medicine():11  
-2021-07-05 03:19:52,962 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='PARACETAMOL' isExact=True | app.api.routes.create_author():19  
-2021-07-05 03:20:30,235 | INFO   | Shutting down | uvicorn.error.shutdown():242 
-2021-07-05 03:20:30,336 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
-2021-07-05 03:20:30,337 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
-2021-07-05 03:20:30,337 | INFO   | Finished server process [9638] | uvicorn.error.serve():75  
-2021-07-05 03:20:30,563 | INFO   | Started server process [9655] | uvicorn.error.serve():65  
-2021-07-05 03:20:30,563 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
-2021-07-05 03:20:30,563 | INFO   | ****************************** | app.main.handle_startup():52  
-2021-07-05 03:20:30,563 | INFO   | Initializing Backend. | app.main.handle_startup():53  
-2021-07-05 03:20:30,563 | INFO   | Application startup event. | app.main.handle_startup():56  
-2021-07-05 03:20:30,563 | INFO   | Application startup complete. | uvicorn.error.startup():59  
-2021-07-05 03:20:54,474 | INFO   | Shutting down | uvicorn.error.shutdown():242 
-2021-07-05 03:20:54,575 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
-2021-07-05 03:20:54,576 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
-2021-07-05 03:20:54,576 | INFO   | Finished server process [9655] | uvicorn.error.serve():75  
-2021-07-05 03:20:54,809 | INFO   | Started server process [9657] | uvicorn.error.serve():65  
-2021-07-05 03:20:54,809 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
-2021-07-05 03:20:54,809 | INFO   | ****************************** | app.main.handle_startup():52  
-2021-07-05 03:20:54,809 | INFO   | Initializing Backend. | app.main.handle_startup():53  
-2021-07-05 03:20:54,809 | INFO   | Application startup event. | app.main.handle_startup():56  
-2021-07-05 03:20:54,809 | INFO   | Application startup complete. | uvicorn.error.startup():59  
-2021-07-05 03:21:19,724 | INFO   | Shutting down | uvicorn.error.shutdown():242 
-2021-07-05 03:21:19,825 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
-2021-07-05 03:21:19,825 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
-2021-07-05 03:21:19,826 | INFO   | Finished server process [9657] | uvicorn.error.serve():75  
-2021-07-05 03:21:20,061 | INFO   | Started server process [9663] | uvicorn.error.serve():65  
-2021-07-05 03:21:20,062 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
-2021-07-05 03:21:20,062 | INFO   | ****************************** | app.main.handle_startup():52  
-2021-07-05 03:21:20,062 | INFO   | Initializing Backend. | app.main.handle_startup():53  
-2021-07-05 03:21:20,062 | INFO   | Application startup event. | app.main.handle_startup():56  
-2021-07-05 03:21:20,062 | INFO   | Application startup complete. | uvicorn.error.startup():59  
-2021-07-05 03:21:58,538 | INFO   | Shutting down | uvicorn.error.shutdown():242 
-2021-07-05 03:21:58,639 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
-2021-07-05 03:21:58,640 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
-2021-07-05 03:21:58,640 | INFO   | Finished server process [9663] | uvicorn.error.serve():75  
-2021-07-05 03:21:58,872 | INFO   | Started server process [9667] | uvicorn.error.serve():65  
-2021-07-05 03:21:58,873 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
-2021-07-05 03:21:58,873 | INFO   | ****************************** | app.main.handle_startup():52  
-2021-07-05 03:21:58,873 | INFO   | Initializing Backend. | app.main.handle_startup():53  
-2021-07-05 03:21:58,873 | INFO   | Application startup event. | app.main.handle_startup():56  
-2021-07-05 03:21:58,873 | INFO   | Application startup complete. | uvicorn.error.startup():59  
-2021-07-05 03:22:16,054 | INFO   | Shutting down | uvicorn.error.shutdown():242 
-2021-07-05 03:22:16,155 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
-2021-07-05 03:22:16,155 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
-2021-07-05 03:22:16,156 | INFO   | Finished server process [9667] | uvicorn.error.serve():75  
-2021-07-05 03:22:16,386 | INFO   | Started server process [9671] | uvicorn.error.serve():65  
-2021-07-05 03:22:16,386 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
-2021-07-05 03:22:16,387 | INFO   | ****************************** | app.main.handle_startup():52  
-2021-07-05 03:22:16,387 | INFO   | Initializing Backend. | app.main.handle_startup():53  
-2021-07-05 03:22:16,387 | INFO   | Application startup event. | app.main.handle_startup():56  
-2021-07-05 03:22:16,387 | INFO   | Application startup complete. | uvicorn.error.startup():59  
-2021-07-05 03:23:16,078 | INFO   | Scraping for "crocin" | app.scraper.scraper.scraper_fine():51  
-2021-07-05 03:23:17,391 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='paracetamol' isExact=True | app.scraper.queries.find_medicine():11  
-2021-07-05 03:23:17,391 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='paracetamol' isExact=True | app.api.routes.create_author():19  
+2021-07-05 03:32:50,155 | INFO   | Scraping for "paracetamol" | app.scraper.scraper.scraper_fine():51  
+2021-07-05 03:32:51,215 | INFO   | <class 'app.model.schemas.Medicine'> | app.scraper.queries.find_medicine():13  
+2021-07-05 03:32:51,215 | INFO   | <class 'app.model.schemas.Medicine'> | app.api.routes.get_medicine_info():19  
+2021-07-05 03:32:51,216 | ERROR  | Exception in ASGI application
+ | uvicorn.error.run_asgi():372 
+Traceback (most recent call last):
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/uvicorn/protocols/http/h11_impl.py", line 369, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 59, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/applications.py", line 199, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc from None
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/middleware/cors.py", line 78, in __call__
+    await self.app(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc from None
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/routing.py", line 580, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/routing.py", line 241, in handle
+    await self.app(scope, receive, send)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/starlette/routing.py", line 52, in app
+    response = await func(request)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/routing.py", line 224, in app
+    response_data = await serialize_response(
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/routing.py", line 138, in serialize_response
+    return jsonable_encoder(response_content)
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/encoders.py", line 142, in jsonable_encoder
+    return jsonable_encoder(
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/encoders.py", line 142, in jsonable_encoder
+    return jsonable_encoder(
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/encoders.py", line 90, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/encoders.py", line 90, in jsonable_encoder
+    encoded_value = jsonable_encoder(
+  File "/home/vesper/.pyenv/versions/3.9.4/envs/medicine-handler/lib/python3.9/site-packages/fastapi/encoders.py", line 141, in jsonable_encoder
+    raise ValueError(errors)
+ValueError: [TypeError("'ModelField' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+2021-07-05 03:36:35,457 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:36:35,558 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:36:35,559 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:36:35,559 | INFO   | Finished server process [10208] | uvicorn.error.serve():75  
+2021-07-05 03:36:35,812 | INFO   | Started server process [10314] | uvicorn.error.serve():65  
+2021-07-05 03:36:35,812 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:36:35,812 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:36:35,812 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:36:35,812 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:36:35,812 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:36:40,705 | INFO   | Scraping for "paracetamol" | app.scraper.scraper.scraper_fine():51  
+2021-07-05 03:36:41,609 | INFO   | search_name='paracetamol' brand_name=None generic_name='paracetamol' isExact='True' | app.scraper.queries.find_medicine():12  
+2021-07-05 03:36:41,609 | INFO   | search_name='paracetamol' brand_name=None generic_name='paracetamol' isExact='True' | app.api.routes.get_medicine_info():19  

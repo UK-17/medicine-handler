@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 
 router=APIRouter()
 
-@router.post('/find-medicine')
-async def create_author(data:schemas.Medicine):
-    result = queries.find_medicine(data)
+@router.get('/get-medicine-info/{search_str}')
+async def get_medicine_info(search_str:str):
+    result = queries.find_medicine(search_str)
     logger.info(result)
     return result
