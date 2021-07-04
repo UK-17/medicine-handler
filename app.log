@@ -1,0 +1,56 @@
+2021-07-05 03:19:52,109 | INFO   | Scraping for "crocin" | app.scraper.scraper.scraper_fine():51  
+2021-07-05 03:19:52,962 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='PARACETAMOL' isExact=True | app.scraper.queries.find_medicine():11  
+2021-07-05 03:19:52,962 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='PARACETAMOL' isExact=True | app.api.routes.create_author():19  
+2021-07-05 03:20:30,235 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:20:30,336 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:20:30,337 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:20:30,337 | INFO   | Finished server process [9638] | uvicorn.error.serve():75  
+2021-07-05 03:20:30,563 | INFO   | Started server process [9655] | uvicorn.error.serve():65  
+2021-07-05 03:20:30,563 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:20:30,563 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:20:30,563 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:20:30,563 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:20:30,563 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:20:54,474 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:20:54,575 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:20:54,576 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:20:54,576 | INFO   | Finished server process [9655] | uvicorn.error.serve():75  
+2021-07-05 03:20:54,809 | INFO   | Started server process [9657] | uvicorn.error.serve():65  
+2021-07-05 03:20:54,809 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:20:54,809 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:20:54,809 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:20:54,809 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:20:54,809 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:21:19,724 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:21:19,825 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:21:19,825 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:21:19,826 | INFO   | Finished server process [9657] | uvicorn.error.serve():75  
+2021-07-05 03:21:20,061 | INFO   | Started server process [9663] | uvicorn.error.serve():65  
+2021-07-05 03:21:20,062 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:21:20,062 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:21:20,062 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:21:20,062 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:21:20,062 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:21:58,538 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:21:58,639 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:21:58,640 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:21:58,640 | INFO   | Finished server process [9663] | uvicorn.error.serve():75  
+2021-07-05 03:21:58,872 | INFO   | Started server process [9667] | uvicorn.error.serve():65  
+2021-07-05 03:21:58,873 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:21:58,873 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:21:58,873 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:21:58,873 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:21:58,873 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:22:16,054 | INFO   | Shutting down | uvicorn.error.shutdown():242 
+2021-07-05 03:22:16,155 | INFO   | Waiting for application shutdown. | uvicorn.error.shutdown():64  
+2021-07-05 03:22:16,155 | INFO   | Application shutdown complete. | uvicorn.error.shutdown():75  
+2021-07-05 03:22:16,156 | INFO   | Finished server process [9667] | uvicorn.error.serve():75  
+2021-07-05 03:22:16,386 | INFO   | Started server process [9671] | uvicorn.error.serve():65  
+2021-07-05 03:22:16,386 | INFO   | Waiting for application startup. | uvicorn.error.startup():45  
+2021-07-05 03:22:16,387 | INFO   | ****************************** | app.main.handle_startup():52  
+2021-07-05 03:22:16,387 | INFO   | Initializing Backend. | app.main.handle_startup():53  
+2021-07-05 03:22:16,387 | INFO   | Application startup event. | app.main.handle_startup():56  
+2021-07-05 03:22:16,387 | INFO   | Application startup complete. | uvicorn.error.startup():59  
+2021-07-05 03:23:16,078 | INFO   | Scraping for "crocin" | app.scraper.scraper.scraper_fine():51  
+2021-07-05 03:23:17,391 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='paracetamol' isExact=True | app.scraper.queries.find_medicine():11  
+2021-07-05 03:23:17,391 | INFO   | search_name='crocin' brand_name='CROCIN' generic_name='paracetamol' isExact=True | app.api.routes.create_author():19  
