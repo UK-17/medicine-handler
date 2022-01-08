@@ -4,8 +4,6 @@ from app.api.routes import router as router
 import datetime
 
 import logging
-import sys
-import os
 
 logging.config.fileConfig("./app/logging.conf", disable_existing_loggers=False)
 logger = logging.getLogger(__name__)
@@ -24,11 +22,9 @@ logging.Logger.profile = profile
 
 import sys
 import os
-from pathlib import Path
-from dotenv import load_dotenv
 from fastapi.exceptions import RequestValidationError
 
-load_dotenv(Path(os.path.realpath(os.path.relpath("..")))/"dev.env")
+
 
 app = FastAPI(
 	title="backend-services",

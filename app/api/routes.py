@@ -1,7 +1,5 @@
 from app.scraper import queries
-from fastapi import APIRouter, File, UploadFile, Request, Body, Form
-from fastapi.param_functions import Depends
-from app.model import schemas
+from fastapi import APIRouter
 import sys
 import os
 sys.path.append(os.path.realpath(os.path.relpath("../..")))

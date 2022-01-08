@@ -1,15 +1,12 @@
-import sys
 import os
 import requests
-import json
-import re
 from pathlib import Path
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
-sys.path.append(os.path.realpath(os.path.relpath("../..")))
 import logging
 logger = logging.getLogger(__name__)
-load_dotenv(Path(os.path.realpath(os.path.relpath("..")))/"dev.env")
+
+MEDICINE_SITE = 'https://www.mims.com/india/drug/info/'
 
 def string_cleanup(string:str):
     if string[-1]==')':string = string[:-1] #to remove ) bracket
@@ -20,7 +17,7 @@ def raw_search(name:str):
     logger.info('\t\tPerforming a RAW SEARCH for '+name+'\n')
     brand_name = None
     generic_name = None
-    url = os.getenv('MEDICINE_SITE') + name
+    url = MEDICINE_SITE + name
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html5lib')
     text = str(soup)
@@ -49,7 +46,7 @@ def raw_search(name:str):
 
 def scraper_fine(name:str): #scraping for validation of medicine type
     logger.info(f'Scraping for "{name}"')
-    url = os.getenv('MEDICINE_SITE') + name
+    url = MEDICINE_SITE + name
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html5lib')
     extract = soup.find("meta",attrs={'name':'DESCRIPTION'})
@@ -70,4 +67,9 @@ def scraper_fine(name:str): #scraping for validation of medicine type
         logger.info(f'{name} not found while scraping')
         isExact = False
         return raw_search(name)
+
+if __name__=="__main__":
+    query = input("enter medicine query :")
+    brand_name,generic_name,isExact = scraper_fine(query)
+    print(f"query:{query} | brand_name:{brand_name} | generic_name:{generic_name}")
 
